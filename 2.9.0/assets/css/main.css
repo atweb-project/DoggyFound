@@ -1,0 +1,16 @@
+legend {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.ui-field-contain, fieldset.ui-field-contain {
+	border-width: 0px;
+}
+
+.ui-page {
+	-webkit-backface-visibility: hidden;
+}
+
+#add {
+	vertical-align: top;
+}

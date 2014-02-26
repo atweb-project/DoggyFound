@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<div data-role="page" id="thankyou">
+			<div data-role="header" data-position="fixed" data-tap-toggle="false">
+				<h1>Doggy Found</h1>
+			</div><!-- /header -->
+			<div data-role="content">
+				<p style="text-align: center;">
+					Thank you for your registration
+				</p>
+				<p style="text-align: center;">
+					Please send to a friend...
+				</p>
+				<form id="sentfriend" method="post">
+					<input type="hidden" name="jform[email]" id="hemail">
+					<input type="hidden" name="jform[username]" id="husername">
+					<div id="env">
+						<div data-role="fieldcontain" id="set">
+							<fieldset class="ui-grid-a">
+								<div class="ui-block-a" style="width: 80%;">
+									<label id="name" for="femail" class="ui-hidden-accessible">Send to a friend:</label>
+									<input name="jform[femail][]" id="femail" value="" type="email" placeholder="Put the email of your friend">
+								</div>
+								<div class="ui-block-b" style="width: 20%;">
+									<button id="add" type="button" data-icon="plus" data-theme="b" data-iconpos="notext" data-mini="true" data-inline="true">
+										Add
+									</button>
+								</div>
+							</fieldset>
+						</div>
+					</div>
+					<div>
+						<input id="submitmail" value="Continue" type="submit">
+					</div>
+				</form>
+
+			</div><!-- /content -->
+		</div><!-- /page -->
+	</body>
+</html>
