@@ -1,3 +1,18 @@
+/*
+[Fonts]
+*/
+@font-face {
+	font-family: 'MyriadProBoldCondensed';
+	src: url('fonts/MyriadProBoldCondensed.eot');
+	src: local('MyriadProBoldCondensed'), url('fonts/MyriadProBoldCondensed.woff') format('woff');
+	src: url('fonts/MyriadProBoldCondensed.ttf') format('truetype');
+	
+}
+
+.main{
+	font-family: 'MyriadProBoldCondensed' !important;
+}
+
 legend {
 	text-align: center;
 	margin: 0 auto;
@@ -44,10 +59,11 @@ legend {
 
 .headtext {
 	color: #FFFFFF;
-    font-size: 45px;
-    font-weight: bold;
-    letter-spacing: -2px;
+    font-size: 38px;
     text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .mydog a, .owner a {
@@ -58,9 +74,92 @@ legend {
 	color:#FFFFFF;
 }
 
-.owner a {
+/*.owner a {
 	border-top: 1px solid #FFFFFF;
+}*/
+
+.ui-btn.ui-shadow.ui-btn-corner-all.ui-btn-up-c {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #0099CC;
 }
+
+.ui-focus {
+ -moz-box-shadow: none !important;
+ -webkit-box-shadow: none !important;
+ box-shadow: none !important;
+}
+
+/* disable shadows for better android performance */
+.ui-body-a,
+.ui-bar-a,
+.ui-btn-up-a,
+.ui-btn-hover-a,
+.ui-btn-down-a,
+
+.ui-body-b,
+.ui-bar-b,
+.ui-btn-up-b,
+.ui-btn-hover-b,
+.ui-btn-down-b,
+
+.ui-body-c,
+.ui-bar-c,
+.ui-btn-up-c,
+.ui-btn-hover-c,
+.ui-btn-down-c,
+
+.ui-body-d,
+.ui-bar-d,
+.ui-btn-up-d,
+.ui-btn-hover-d,
+.ui-btn-down-d,
+
+.ui-body-e,
+.ui-bar-e,
+.ui-btn-up-e,
+.ui-btn-hover-e,
+.ui-btn-down-e,
+
+.ui-shadow-inset,
+.ui-icon-shadow,
+.ui-focus,
+.ui-overlay-shadow,
+.ui-shadow,
+.ui-btn-active,
+* {
+    text-shadow: none !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.formbtn .ui-btn-down-c {
+	/*border: 1px solid 		#fff /*{c-bdown-border};*/
+	background: 			#4db8db /*{c-bdown-background-color}*/;
+	font-weight: bold;
+	color: 					#fff /*{c-bdown-color}*/;
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from( #d0d0d0 /*{c-bdown-background-start}), to( #dfdfdf /*{c-bdown-background-end})); /* Saf4+, Chrome */
+	/*background-image: -webkit-linear-gradient( #d0d0d0 /*{c-bdown-background-start}, #dfdfdf /*{c-bdown-background-end}); /* Chrome 10+, Saf5.1+ */
+	/*background-image:    -moz-linear-gradient( #d0d0d0 /*{c-bdown-background-start}, #dfdfdf /*{c-bdown-background-end}); /* FF3.6 */
+	/*background-image:     -ms-linear-gradient( #d0d0d0 /*{c-bdown-background-start}, #dfdfdf /*{c-bdown-background-end}); /* IE10 */
+	/*background-image:      -o-linear-gradient( #d0d0d0 /*{c-bdown-background-start}, #dfdfdf /*{c-bdown-background-end}); /* Opera 11.10+ */
+	/*background-image:         linear-gradient( #d0d0d0 /*{c-bdown-background-start}, #dfdfdf /*{c-bdown-background-end});*/
+}
+
+.ui-btn-inner {
+    padding-bottom: 0.25em;
+}
+
+.mydog .ui-btn-up-c, .mydog .ui-btn-hover-c{
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.owner .ui-collapsible-heading-toggle .ui-btn .ui-btn-icon-right .ui-btn-hover-c .ui-focus .ui-btn-up-c, .owner .ui-btn-hover-c{
+	border-bottom: 1px solid #FFFFFF;
+}
+/*.owner .ui-btn-inner {
+	padding-top: 0.5em;
+}*/
 
 /*img {
   width: 100%;
