@@ -14,8 +14,11 @@
 }
 
 legend {
-	text-align: center;
+	text-transform: uppercase;
 	margin: 0 auto;
+	font-size: 25px;
+	color:#FFFFFF;
+	float:left;
 }
 
 .ui-field-contain, fieldset.ui-field-contain {
@@ -77,9 +80,9 @@ legend {
 /*.owner a {
 	border-top: 1px solid #FFFFFF;
 }*/
-
+c
 .ui-btn.ui-shadow.ui-btn-corner-all.ui-btn-up-c {
-    background: none repeat scroll 0 0 #FFFFFF;
+    background: #FFFFFF;
     color: #0099CC;
 }
 
@@ -133,6 +136,11 @@ legend {
     -webkit-box-shadow: none !important;
 }
 
+.formbtn .ui-btn-up-c {
+	background: #FFFFFF;
+	color: #0099CC;
+}
+
 .formbtn .ui-btn-down-c {
 	/*border: 1px solid 		#fff /*{c-bdown-border};*/
 	background: 			#4db8db /*{c-bdown-background-color}*/;
@@ -150,17 +158,72 @@ legend {
     padding-bottom: 0.25em;
 }
 
-.mydog .ui-btn-up-c, .mydog .ui-btn-hover-c{
-	border-bottom: 1px solid #FFFFFF;
+.owner .ui-btn-up-c, .owner .ui-btn-hover-c{
+	border-top: 1px solid #FFFFFF;
 }
 
-.owner .ui-collapsible-heading-toggle .ui-btn .ui-btn-icon-right .ui-btn-hover-c .ui-focus .ui-btn-up-c, .owner .ui-btn-hover-c{
-	border-bottom: 1px solid #FFFFFF;
+.ui-input-text.ui-shadow-inset.ui-corner-all.ui-btn-shadow.ui-body-c {
+    border-bottom: 1px solid #FFFFFF;
 }
-/*.owner .ui-btn-inner {
-	padding-top: 0.5em;
-}*/
 
+.breedcontain .ui-btn.ui-shadow.ui-btn-corner-all.ui-btn-up-c {
+	background:none;
+	color:#4DB8DB;
+	border-bottom: 1px solid #ffffff;
+	border-radius: 0px;
+}
+.breedcontain .ui-btn.ui-shadow.ui-btn-corner-all.ui-focus.ui-btn-hover-c{
+	border-bottom: 1px solid #ffffff;
+	border-radius: 0px;
+	color:#4DB8DB;
+}
+
+.breedcontain .ui-btn.ui-shadow.ui-btn-corner-all.ui-btn-icon-right.ui-btn-hover-c{
+	border-bottom: 1px solid #ffffff;
+	border-radius: 0px;
+	color:#fff;
+}
+
+
+.mydog .ui-select .ui-btn-icon-right .ui-icon {
+    background-color: #FFFFFF;
+    
+}
+
+.breedcontain .ui-focus {
+	border:0;
+}
+
+#breed > option:checked {
+    color: #FFFFFF !important;
+}
+
+#gender .ui-btn-inner {
+	background:#0099CC;
+	color:#4DB8DB;
+	font-size: 25px;
+}
+
+#gender .ui-radio-on .ui-btn-inner{
+	color: #FFFFFF;	
+}
+
+#gender label .ui-radio-on {
+	font-size:25px;
+	border: 0;
+}
+
+.ui-radio:first-child {
+    border-right: 1px solid #FFFFFF;
+}
+
+#gender {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.genderbuttons {	
+   width:200px;
+}
 /*img {
   width: 100%;
   max-width: 100%;
