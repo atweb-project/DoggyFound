@@ -38,6 +38,7 @@ legend {
 	background:#FFFFFF;
 	padding: 0px;
     border: 0 none;
+    z-index: 1200;
     
 }
 
@@ -171,21 +172,25 @@ c
 	color:#4DB8DB;
 	border-bottom: 1px solid #ffffff;
 	border-radius: 0px;
+    border-top: 0 none;
 }
 .breedcontain .ui-btn.ui-shadow.ui-btn-corner-all.ui-focus.ui-btn-hover-c{
 	border-bottom: 1px solid #ffffff;
 	border-radius: 0px;
 	color:#4DB8DB;
+    border-top: 0 none;
 }
 
 .breedcontain .ui-btn.ui-shadow.ui-btn-corner-all.ui-btn-icon-right.ui-btn-hover-c{
 	border-bottom: 1px solid #ffffff;
 	border-radius: 0px;
 	color:#fff;
+    border-top: 0 none;
 }
 
 
-.mydog .ui-select .ui-btn-icon-right .ui-icon {
+.mydog .ui-select .ui-btn-icon-right .ui-icon,
+.owner .ui-select .ui-btn-icon-right .ui-icon{
     background-color: #FFFFFF;
     
 }
@@ -228,6 +233,56 @@ c
   width: 100%;
   max-width: 100%;
 }*/
+
+#addphoto .ui-btn-text {
+    color: #fff;
+}
+
+#popupDialog {
+    background: none repeat scroll 0 0 #fff;
+    color: #0099cc;
+    padding: 5px;
+    border-radius: 1em;
+}
+
+#popupDialog h3 {
+    text-align: center;
+}
+
+#capture .ui-btn-text {
+    color: #0099cc;
+}
+
+#getImg .ui-btn-text {
+    color: #0099cc;
+}
+
+#cancel {
+    border: 0;
+}
+
+#cancel .ui-btn-text {
+    color: #000;
+}
+
+textarea {
+    border: 0;
+}
+
+#specialsdetails, #address {
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+
+.ui-body-c .ui-link {
+     color: #fff;
+     font-weight: normal;
+}
+
+.ui-body-c .ui-link:hover {
+    color: #fff;
+    font-weight: normal;
+}
 
 
 /* Responsive Layout*/

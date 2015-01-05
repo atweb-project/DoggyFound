@@ -70,8 +70,8 @@
                                 <input name="jform[photoupload]" id="photoupload"  type="button" value="Photo Upload:" >-->
                                 <!--<img style="display:none;width:60px;height:60px;" id="smallImage" src="" />-->
                                 <input type="hidden" class="photoname" name="jform[photoname]">
-                                <img style="display:none;width:60px;height:60px;" class="largeImage" name="jform[photoupload]" src="" />
-                                <a href="#popupDialog" data-rel="popup" data-position-to="window" data-role="button" data-transition="pop" id="addphoto">Add a photo</a>
+                                <img style="display:none;width:100%;height:100%;padding:5px;border:1px solid #fff;" class="largeImage" name="jform[photoupload]" src="" />
+                                <a href="#popupDialog" data-rel="popup" data-position-to="window" data-role="button" data-transition="pop" id="addphoto">Photo Upload</a>
                                 <!--<a data-role="button" id="addphoto">Add a photo</a>-->
                                 <!--Pop-up Dialog Content -->
                                 <div data-role="popup" id="popupDialog"  data-dismissible="false" class="ui-corner-all">
@@ -110,15 +110,15 @@
                                 <label id="phone" for="phonenumber">Phonenumber:</label>
                                 <input name="jform[phonenumber]" id="phonenumber" value="" type="tel">
                             </div>
-                            <div data-role="fieldcontain">
+                            <div data-role="fieldcontain" class="breedcontain ui-icon-alt">
                                 <label for="country" class="select">Country:</label>
-                                <select name="jform[country]" id="country"  onchange="print_city('city',this.selectedIndex);">
+                                <select name="jform[country]" id="country"  onchange="print_city('city',this.selectedIndex);" data-icon="arrow-r" class="ui-icon-alt">
 
                                 </select>
                             </div>
-                            <div data-role="fieldcontain">
+                            <div data-role="fieldcontain" class="breedcontain ui-icon-alt">
                                 <label for="city" class="select">City:</label>
-                                <select name="jform[city]" id="city">
+                                <select name="jform[city]" id="city" data-icon="arrow-r" class="ui-icon-alt">
                                     <option>Select a City</option>
                                 </select>
                             </div>
@@ -144,7 +144,7 @@
                 <p>
                     Have you already register?
                     <br />
-                    Please <a href"#">login</a>.
+                    Please <a href="#">click here to login</a>.
                 </p>
 
             </div><!-- /content -->
